@@ -44,4 +44,10 @@ public class FizzBuzzTest {
         String spokenWord = underTest.say(5);
         assertThat(spokenWord).isEqualTo("Buzz");
     }
+    @Test
+    public void multipleOf3ReturnsFizz(){
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(9);
+        assertThat(spokenWord).isEqualTo("Fizz");
+    }
 }
