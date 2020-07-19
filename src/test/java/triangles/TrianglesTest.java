@@ -30,4 +30,10 @@ public class TrianglesTest {
         String triangleType = underTest.analyze(2, 3, 4);
         assertThat(triangleType).isEqualTo("Scalene Triangle");
     }
+    @Test
+    public void notATriangleAtAll() {
+        TriangleSorter underTest = new TriangleSorter();
+        String triangleType = underTest.analyze(2, 2, 5);
+        assertThat(triangleType).isEqualTo("Not A Triangle");
+    }
 }
