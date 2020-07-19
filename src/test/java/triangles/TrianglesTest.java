@@ -12,4 +12,10 @@ public class TrianglesTest {
         String triangleType = underTest.analyze(3, 3, 3);
         assertThat(triangleType).isEqualTo("Equilateral");
     }
+    @Test
+    public void twoEqualSidesIsAnIsoscelesTriangle() {
+        TriangleSorter underTest = new TriangleSorter();
+        String triangleType = underTest.analyze(2, 3, 3);
+        assertThat(triangleType).isEqualTo("Isosceles");
+    }
 }
