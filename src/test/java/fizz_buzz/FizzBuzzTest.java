@@ -20,4 +20,58 @@ public class FizzBuzzTest {
         String spokenWord = underTest.say(1);
         assertThat(spokenWord).isEqualTo("1");
     }
+    @Test
+    public void whenGiven2FizzBuzzSays2() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(2);
+        assertThat(spokenWord).isEqualTo("2");
+    }
+    @Test
+    public void whenGiven3FizzBuzzSaysFizz() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(3);
+        assertThat(spokenWord).isEqualTo("Fizz");
+    }
+    @Test
+    public void whenGiven4FizzBuzzSays4() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(4);
+        assertThat(spokenWord).isEqualTo("4");
+    }
+    @Test
+    public void whenGiven5FizzBuzzSaysBuzz() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(5);
+        assertThat(spokenWord).isEqualTo("Buzz");
+    }
+    @Test
+    public void multipleOf3FizzBuzzSaysFizz(){
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(9);
+        assertThat(spokenWord).isEqualTo("Fizz");
+    }
+    @Test
+    public void multiplesOf5FizzBuzzSaysBuzz() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(10);
+        assertThat(spokenWord).isEqualTo("Buzz");
+    }
+    @Test
+    public void multiplesOf3And5FizzBuzzSaysFizzBuzz() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(15);
+        assertThat(spokenWord).isEqualTo("FizzBuzz");
+    }
+    @Test
+    public void multiplesOf11FizzBuzzSaysBANG() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(22);
+        assertThat(spokenWord).isEqualTo("BANG");
+    }
+    @Test
+    public void multiplesOf3And11FizzBuzzSaysFizzBANG() {
+        FizzBuzz underTest = new FizzBuzz();
+        String spokenWord = underTest.say(33);
+        assertThat(spokenWord).isEqualTo("FizzBANG");
+    }
 }
