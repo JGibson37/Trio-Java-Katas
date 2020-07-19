@@ -9,6 +9,8 @@ public class FizzBuzz {
             return "Fizz";
         }else if(number % 5 == 0){
             return "Buzz";
+        }else if(number % 11 == 0){
+            return "BANG";
         }
         return "" + number;
     }
