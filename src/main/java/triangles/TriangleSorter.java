@@ -10,6 +10,8 @@ public class TriangleSorter {
                 ||(Math.pow(sideB, 2)) + (Math.pow(sideC, 2)) == (Math.pow(sideA, 2))
                 ||(Math.pow(sideA, 2)) + (Math.pow(sideC, 2)) == (Math.pow(sideB, 2))){
             return "Right Triangle";
+        }else if ((sideA + sideB > sideC) || (sideA + sideC > sideB) || (sideB + sideC > sideA)){
+            return "Scalene Triangle";
         }
         return "";
     }

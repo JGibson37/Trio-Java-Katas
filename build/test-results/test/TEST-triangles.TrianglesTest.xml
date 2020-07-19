@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="triangles.TrianglesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-19T19:22:31" hostname="WECANCODEIT-105" time="0.093">
+<testsuite name="triangles.TrianglesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-19T19:32:25" hostname="WECANCODEIT-105" time="0.087">
   <properties/>
-  <testcase name="aSquaredPlusBSquaredEqualsRightTriangle()" classname="triangles.TrianglesTest" time="0.093"/>
+  <testcase name="ifNotOthersThenIsScaleneTriangle()" classname="triangles.TrianglesTest" time="0.087"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
