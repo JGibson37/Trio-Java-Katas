@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="fizz_buzz.FizzBuzzTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-19T18:46:29" hostname="WECANCODEIT-105" time="0.091">
+<testsuite name="fizz_buzz.FizzBuzzTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-07-19T18:49:33" hostname="WECANCODEIT-105" time="0.133">
   <properties/>
-  <testcase name="multiplesOf5FizzBuzzSaysBuzz()" classname="fizz_buzz.FizzBuzzTest" time="0.091"/>
+  <testcase name="multipleOf3FizzBuzzSaysFizz()" classname="fizz_buzz.FizzBuzzTest" time="0.097"/>
+  <testcase name="whenGiven2FizzBuzzSays2()" classname="fizz_buzz.FizzBuzzTest" time="0.016"/>
+  <testcase name="whenGiven1FizzBuzzSays1()" classname="fizz_buzz.FizzBuzzTest" time="0.002"/>
+  <testcase name="whenGiven5FizzBuzzSaysBuzz()" classname="fizz_buzz.FizzBuzzTest" time="0.002"/>
+  <testcase name="multiplesOf5FizzBuzzSaysBuzz()" classname="fizz_buzz.FizzBuzzTest" time="0.001"/>
+  <testcase name="multiplesOf3And5FizzBuzzSaysFizzBuzz()" classname="fizz_buzz.FizzBuzzTest" time="0.001"/>
+  <testcase name="whenGiven3FizzBuzzSaysFizz()" classname="fizz_buzz.FizzBuzzTest" time="0.002"/>
+  <testcase name="whenGiven4FizzBuzzSays4()" classname="fizz_buzz.FizzBuzzTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
