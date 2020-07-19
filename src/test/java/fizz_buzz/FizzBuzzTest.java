@@ -74,5 +74,4 @@ public class FizzBuzzTest {
         String spokenWord = underTest.say(33);
         assertThat(spokenWord).isEqualTo("FizzBANG");
     }
-
 }
