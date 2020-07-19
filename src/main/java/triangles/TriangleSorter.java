@@ -6,6 +6,10 @@ public class TriangleSorter {
             return "Equilateral";
         }else if(sideA == sideB || sideA == sideB || sideB == sideC){
             return "Isosceles";
+        }else if ((Math.pow(sideA, 2)) + (Math.pow(sideB, 2)) == (Math.pow(sideC, 2))
+                ||(Math.pow(sideB, 2)) + (Math.pow(sideC, 2)) == (Math.pow(sideA, 2))
+                ||(Math.pow(sideA, 2)) + (Math.pow(sideC, 2)) == (Math.pow(sideB, 2))){
+            return "Right Triangle";
         }
         return "";
     }

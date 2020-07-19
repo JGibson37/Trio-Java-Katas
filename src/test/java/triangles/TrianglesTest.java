@@ -18,4 +18,11 @@ public class TrianglesTest {
         String triangleType = underTest.analyze(2, 3, 3);
         assertThat(triangleType).isEqualTo("Isosceles");
     }
+    @Test
+    public void aSquaredPlusBSquaredEqualsRightTriangle() {
+        TriangleSorter underTest = new TriangleSorter();
+        String triangleType = underTest.analyze(3, 4, 5);
+        assertThat(triangleType).isEqualTo("Right Triangle");
+    }
+
 }

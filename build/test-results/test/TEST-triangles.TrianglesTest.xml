@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="triangles.TrianglesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-07-19T19:10:42" hostname="WECANCODEIT-105" time="0.11">
+<testsuite name="triangles.TrianglesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-19T19:22:31" hostname="WECANCODEIT-105" time="0.093">
   <properties/>
-  <testcase name="threeEqualSidesIsAnEquilateralTriangle()" classname="triangles.TrianglesTest" time="0.105"/>
-  <testcase name="twoEqualSidesIsAnIsoscelesTriangle()" classname="triangles.TrianglesTest" time="0.003"/>
+  <testcase name="aSquaredPlusBSquaredEqualsRightTriangle()" classname="triangles.TrianglesTest" time="0.093"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
